@@ -1,0 +1,45 @@
+{
+    "name": "@tallis/react-dndp",
+    "version": "0.0.4",
+    "description": "React Component for upload photo with drag and drop",
+    "main": "dist/index",
+    "typings": "dist/index",
+    "module": "dist/index",
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "del dist & SET NODE_ENV=production & babel src/lib --out-dir dist --copy-files"
+    },
+    "dependencies": {
+        "@babel/preset-react": "^7.16.7",
+        "@emotion/react": "^11.8.1",
+        "@emotion/styled": "^11.8.1",
+        "@mui/material": "^5.4.3",
+        "clsx": "^1.1.1",
+        "core-js": "^3.21.1"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.17.3",
+        "@babel/core": "^7.17.5",
+        "@babel/preset-env": "^7.16.11"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/katyperrycbt/react-dndp.git"
+    },
+    "keywords": [
+        "reactjs",
+        "drag and drop",
+        "drop files",
+        "photo upload",
+        "nextjs"
+    ],
+    "author": "katyperrycbt",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/katyperrycbt/react-dndp/issues"
+    },
+    "homepage": "https://github.com/katyperrycbt/react-dndp#readme"
+}
