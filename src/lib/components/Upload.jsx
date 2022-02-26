@@ -246,7 +246,7 @@ const UploadComponent = ({
                     }
                     <div style={{ width: '100%', height: '100%', position: 'relative' }}>
                         {
-                            NextImage && React.isValidElement(<NextImage />) ? <Image
+                            NextImage && React.isValidElement(<NextImage />) ? <NextImage
                                 src={photo}
                                 alt='Photo'
                                 layout='fill'

@@ -1,6 +1,6 @@
 {
     "name": "@tallis/react-dndp",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "React Component for upload photo with drag and drop",
     "main": "dist/index",
     "typings": "dist/index",

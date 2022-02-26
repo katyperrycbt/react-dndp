@@ -326,7 +326,7 @@ const UploadComponent = _ref2 => {
             height: '100%',
             position: 'relative'
           },
-          children: NextImage && React.isValidElement( /*#__PURE__*/(0, _jsxRuntime.jsx)(NextImage, {})) ? /*#__PURE__*/(0, _jsxRuntime.jsx)(Image, {
+          children: NextImage && React.isValidElement( /*#__PURE__*/(0, _jsxRuntime.jsx)(NextImage, {})) ? /*#__PURE__*/(0, _jsxRuntime.jsx)(NextImage, {
             src: photo,
             alt: "Photo",
             layout: "fill",
